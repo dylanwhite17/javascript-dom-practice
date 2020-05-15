@@ -10,7 +10,7 @@ function ADD_APP() {
     newButton.appendChild(buttonContent);
     //append list creation button to "app"
     document.getElementById("app").appendChild(newButton);
-    
+    //Add Some Comments
     //on click, run function: createNewList(), creates a new list.
     document.getElementById("newButton").addEventListener("click", createNewList); 
     
